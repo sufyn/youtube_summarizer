@@ -4,3 +4,8 @@ hugchat
 langchain
 streamlit
 youtube-transcript-api
+sentence-transformers
+ctransformers
+huggingface-hub
+faiss-cpu
+torch
