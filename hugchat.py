@@ -38,8 +38,8 @@ def transcribe_audio(filename):
 
     if transcript!="":
 
-            huggingface_username = 'sufyn'
-            huggingface_pwd = 'Kamraan@123'
+            huggingface_username = ''
+            huggingface_pwd = ''
             # Log in to huggingface and grant authorization to huggingchat
             sign = Login(huggingface_username,huggingface_pwd)
             cookies = sign.login()
