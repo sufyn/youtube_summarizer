@@ -28,7 +28,7 @@ def download(url):
 
 def load_documents():
 
-    loader = DirectoryLoader('/content/', glob="**/*.txt", loader_cls=TextLoader)
+    loader = DirectoryLoader('./', glob="**/*.txt", loader_cls=TextLoader)
     documents = loader.load()
     return documents
 
