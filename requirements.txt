@@ -9,3 +9,4 @@ ctransformers
 huggingface-hub
 faiss-cpu
 torch
+langchain-community
